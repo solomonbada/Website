@@ -1,0 +1,8 @@
+cd ~/Documents/Flask_App/application
+sudo mv -f venv ~/Desktop/DeleteThisUniqueName
+python3 -m venv venv
+. venv/bin/activate
+cd ../
+flask run
+...
+pip3 install <missing packages>
